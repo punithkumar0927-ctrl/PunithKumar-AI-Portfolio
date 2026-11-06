@@ -1,60 +1,189 @@
-# Punith Kumar A B — Portfolio
+# Punith Kumar — AI/ML Engineer Portfolio
 
-A responsive personal portfolio for an AI and machine-learning engineer. The site is built with React, TypeScript, Vite, Tailwind CSS, Motion, and GSAP. It is intentionally a public portfolio rather than an account portal; it does not collect credentials or pretend to provide a backend service.
+A modern, responsive personal portfolio website built to showcase my AI, Machine Learning, Data Science, and Full-Stack projects.
+
+Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, **Motion**, and **GSAP**.
+
+![Portfolio Preview](./portfolio_preview.png)
+
+## Live Demo
+
+- Portfolio: `https://your-portfolio-url.vercel.app`
+- GitHub: [https://github.com/punithkumar0927-ctrl](https://github.com/punithkumar0927-ctrl)
+- LinkedIn: `https://www.linkedin.com/in/your-linkedin-username`
+- Email: `your-email@example.com`
+
+## About
+
+This portfolio highlights my work in Artificial Intelligence, Machine Learning, Deep Learning, Data Analysis, and web development. It includes my technical skills, professional experience, featured projects, certifications, and contact information.
+
+The website is fully responsive and optimized for desktop, tablet, and mobile devices.
+
+## Tech Stack
+
+- **Frontend:** React, TypeScript, Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Motion, GSAP
+- **Deployment:** Vercel / Netlify
+- **Version Control:** Git, GitHub
 
 ## Features
 
-- Responsive portfolio with About, Work, Experience, Education, Skills, and Contact sections
-- Dark/light theme preference saved locally when browser storage is available
-- Working project category filters and accessible project-detail dialogs
-- Downloadable resume, email links, and email-copy action
-- Motion and GSAP scroll reveals that respect reduced-motion preferences
-- Keyboard-accessible navigation and dialogs
-- Static production build deployable to Vercel or Netlify
+- Responsive modern portfolio design
+- Animated user interface using Motion and GSAP
+- About, Skills, Experience, Projects, and Contact sections
+- Downloadable resume
+- Direct email and social media links
+- Fast performance using Vite
+- Easy content customization through `src/data.ts`
+- Production-ready build setup
 
-## Project structure
+## Featured Projects
+
+| Project | Description | Tech Stack | Links |
+|---|---|---|---|
+| AI Project 1 | Short description of the problem solved and result achieved | Python, TensorFlow, scikit-learn | [GitHub](https://github.com/punithkumar0927-ctrl/project-1) |
+| AI Project 2 | Short description of the problem solved and result achieved | Python, Pandas, Streamlit | [GitHub](https://github.com/punithkumar0927-ctrl/project-2) |
+| Web Project 1 | Short description of the web application and key features | React, TypeScript, Tailwind CSS | [GitHub](https://github.com/punithkumar0927-ctrl/project-3) |
+
+> Replace the project names, descriptions, links, and tech stacks with your real repositories.
+
+## Project Structure
 
 ```text
-src/
-  App.tsx       Main page and interactive components
-  data.ts       Portfolio content
-  index.css     Tailwind entry and responsive visual system
-  main.tsx      React entry point
-index.html      SEO metadata and application entry
-vite.config.ts  Vite, React, and Tailwind configuration
+PunithKumar-AI-Portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── data.ts
+│   ├── App.tsx
+│   └── main.tsx
+├── portfolio_preview.png
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
 ```
 
-## Run locally
+## Getting Started
 
-Requirements: Node.js 20.19+ or 22.12+.
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm or yarn
+- Git
+
+### Installation
 
 ```bash
+git clone [https://github.com/punithkumar0927-ctrl/PunithKumar-AI-Portfolio.git](https://github.com/punithkumar0927-ctrl/PunithKumar-AI-Portfolio.git)
+cd PunithKumar-AI-Portfolio
 npm install
+```
+
+### Run Locally
+
+```bash
 npm run dev
 ```
 
-Once Vite is running, open the site at [http://localhost:5173/](http://localhost:5173/).
+Then open the local development URL shown in your terminal, usually:
 
-Create and verify a production build:
+```text
+http://localhost:5173
+```
+
+## Customization
+
+### Update Portfolio Content
+
+Most of the portfolio content can be updated from:
+
+```text
+src/data.ts
+```
+
+You can update:
+
+- Personal information
+- Skills
+- Work experience
+- Projects
+- Certifications
+- Social links
+- Contact details
+
+### Update Main Sections
+
+For layout or section-level changes, edit:
+
+```text
+src/App.tsx
+```
+
+### Update Resume
+
+Place your updated resume PDF in the project and update the import path in the relevant component.
+
+Example:
+
+```text
+src/assets/Punith_Kumar_Resume.pdf
+```
+
+## Build for Production
 
 ```bash
 npm run build
-npm run preview
 ```
 
-## Deploy
+The optimized production files will be generated in the `dist/` folder.
 
-### Vercel
+## Deployment
 
-1. Push the repository to GitHub and import it in Vercel.
-2. Select **Vite** as the framework preset.
-3. Use `npm run build` as the build command and `dist` as the output directory.
-4. Deploy. No environment variables are required for this static portfolio.
+### Deploy to Vercel
 
-### Netlify
+1. Push this repository to GitHub.
+2. Go to [Vercel](https://vercel.com).
+3. Import the GitHub repository.
+4. Vercel will automatically detect Vite.
+5. Click **Deploy**.
 
-1. Import the GitHub repository in Netlify.
-2. The checked-in `netlify.toml` configures `npm run build` and `dist`.
-3. Deploy. No environment variables are required.
+### Deploy to Netlify
 
-The original PDF resume is imported into the production bundle by Vite. Update the profile content and project details in `src/data.ts` and `src/App.tsx`.
+1. Push this repository to GitHub.
+2. Go to [Netlify](https://netlify.com).
+3. Import the repository.
+4. Use the following build settings:
+
+```text
+Build command: npm run build
+Publish directory: dist
+```
+
+5. Click **Deploy**.
+
+## Contributing
+
+This is a personal portfolio project, but suggestions and feedback are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+- **Name:** Punith Kumar
+- **Location:** Davangere, Karnataka, India
+- **Email:** `your-email@example.com`
+- **GitHub:** [punithkumar0927-ctrl](https://github.com/punithkumar0927-ctrl)
+- **LinkedIn:** `https://www.linkedin.com/in/your-linkedin-username`
+
+If you like this portfolio, please consider giving the repository a star.
