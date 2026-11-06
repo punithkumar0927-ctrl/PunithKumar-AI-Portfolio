@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+OIBSIP_\[DATA_SCIENCE_ASSIGNMENT\]_\[Level_1_Task\]_\[IrisClassification\]_.ipynb
